@@ -1,0 +1,22 @@
+configuration {
+  font: "Noto Sans 16";
+
+  drun {
+    display-name: "";
+  }
+
+  run {
+    display-name: "";
+  }
+
+  window {
+    display-name: "";
+  }
+
+  timeout {
+    delay: 10;
+    action: "kb-cancel";
+  }
+}
+
+@theme "typewriter"
