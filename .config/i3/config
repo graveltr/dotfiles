@@ -60,10 +60,18 @@ bindsym $mod+Shift+q kill
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+#bindsym $mod+j focus left
+#bindsym $mod+k focus down
+#bindsym $mod+l focus up
+#bindsym $mod+semicolon focus right
+
+bindsym $mod+h workspace prev
+bindsym $mod+l workspace next
+
+bindsym $mod+ctrl+h focus left
+bindsym $mod+ctrl+j focus down 
+bindsym $mod+ctrl+k focus up
+bindsym $mod+ctrl+l focus right 
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -84,7 +92,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
+bindsym $mod+u split h
 
 # split in vertical orientation
 bindsym $mod+v split v
@@ -205,6 +213,8 @@ client.background       #ffffff
 bindsym $mod+p exec "rofi -show drun"
 bindsym $mod+b exec firefox
 bindsym $mod+d exec nemo 
+bindsym $mod+ctrl+t exec "$HOME/.config/rofi/scripts/books-search.sh"
+bindsym $mod+ctrl+r exec "$HOME/.config/rofi/scripts/paper-search.sh"
 
 exec_always --no-startup-id pkill -9 polybar ; polybar main
 #exec_always killall picom ; picom -b

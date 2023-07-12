@@ -116,8 +116,6 @@ source $ZSH/oh-my-zsh.sh
 
 neofetch
 fortune 
-echo "cancel amazon kids"
-print "\n"
 # print "\t + Look at the agenda\n\t + Look at scratch\n\t + Fill out a daily journal entry \n\t + Check unprocessed documents folder\n"
 # Install Ruby Gems to ~/gems
 export GEM_HOME="$HOME/gems"

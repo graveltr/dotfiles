@@ -42,17 +42,17 @@ module-margin-left = 1
 module-margin-right = 1
 
 ; Icons
-font-0 = NotoMono Nerd Font Mono:pixelsize=16;4
+font-0 = NotoMono Nerd Font Mono:pixelsize=18;4
 ; Percentages
-font-1 = NotoMono Nerd Font Mono:pixelsize=18;3
+font-1 = NotoMono Nerd Font Mono:pixelsize=20;4
 ; Logo
 font-2 = NotoMono Nerd Font Mono:pixelsize=16;4
-; Bluetooth icon
-font-3 = NotoMono Nerd Font Mono:pixelsize=24;3
+; text preceding percentages 
+font-3 = NotoMono Nerd Font Mono:pixelsize=20;4
 ; Sound icon
 font-4 = NotoMono Nerd Font Mono:pixelsize=22;4
 ; Workspaces
-font-5 = NotoMono Nerd Font Mono:pixelsize=22;4
+font-5 = NotoMono Nerd Font Mono:pixelsize=18;4
 
 ;modules-left = start
 modules-left = start i3
@@ -299,7 +299,7 @@ card = intel_backlight
 [module/cpu]
 type = internal/cpu
 interval = 3
-format-prefix = " "
+format-prefix = "cpu: "
 ;format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
 format-underline = #f90000
@@ -310,11 +310,11 @@ format-prefix-font = 4
 [module/memory]
 type = internal/memory
 interval = 3
-format-prefix = " "
-;format-prefix = " "
+format-prefix = "mem: "
 format-prefix-foreground = ${colors.foreground}
 label = %percentage_used%%
 label-font = 2
+format-prefix-font = 4
 
 [module/wlan]
 ; check it with "ip a"

@@ -18,7 +18,7 @@
 # Script:
 
 # Books directory
-BOOKS_DIR=~/Dropbox/textbooks
+BOOKS_DIR=~/Dropbox/research\ dump 
 
 # Save find result to F_ARRAY
 readarray -t F_ARRAY <<< "$(find "$BOOKS_DIR" -type f -name '*.pdf')"
