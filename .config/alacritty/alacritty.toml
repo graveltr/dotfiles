@@ -1,0 +1,17 @@
+import = ["/home/trevor/.config/alacritty/themes/themes/inferno.toml"]
+
+[env]
+TERM = "alacritty"
+
+[font.normal]
+family = "NotoMono Nerd Font Mono"
+
+[font]
+size = 12.0
+
+[window]
+decorations = "full"
+
+[window.padding]
+x = 10
+y = 10
