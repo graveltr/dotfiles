@@ -46,7 +46,7 @@ font-0 = NotoMono Nerd Font Mono:pixelsize=18;4
 ; Percentages
 font-1 = NotoMono Nerd Font Mono:pixelsize=20;4
 ; Logo
-font-2 = NotoMono Nerd Font Mono:pixelsize=16;4
+font-2 = NotoMono Nerd Font Mono:pixelsize=30;6
 ; text preceding percentages 
 font-3 = NotoMono Nerd Font Mono:pixelsize=20;4
 ; Sound icon
@@ -299,7 +299,7 @@ card = intel_backlight
 [module/cpu]
 type = internal/cpu
 interval = 3
-format-prefix = "cpu: "
+format-prefix = " "
 ;format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
 format-underline = #f90000
@@ -310,7 +310,7 @@ format-prefix-font = 4
 [module/memory]
 type = internal/memory
 interval = 3
-format-prefix = "mem: "
+format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
 label = %percentage_used%%
 label-font = 2
@@ -581,11 +581,11 @@ ramp-foreground = ${colors.primary}
 type = custom/menu
 
 ;label-open = 
-label-open = ψ
+label-open = 
 label-open-foreground = ${colors.foreground}
 label-open-font = 3
 ;label-close = 
-label-close = ψ
+label-close = 
 label-close-foreground = ${colors.primary}
 label-close-font = 3
 label-separator = " "
