@@ -1,0 +1,13 @@
+/home/trevor/MATLAB 
+/home/trevor/maple2023 
+/home/trevor/go
+/home/trevor/MATLAB\ Add-Ons
+/home/trevor/Dropbox
+/home/trevor/kernel-dev
+/home/trevor/Documents/Backups
+/home/trevor/raspberry-pi-backup
+/home/trevor/Documents/isos
+/home/trevor/VirtualBox\ VMs
+/home/trevor/Downloads
+/home/trevor/.cache 
+/home/trevor/.Mathematica

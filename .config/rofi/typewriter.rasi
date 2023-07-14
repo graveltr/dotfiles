@@ -3,10 +3,10 @@
   margin: 0;
   padding: 0;
   spacing: 0;
-
-  bg: #262626;
-  bg-alt: #3A342E;
-  fg: #C5B8A1;
+  /*3A342E*/
+  bg: #C5B8A1;
+  bg-alt: #C5B8A1;
+  fg: #262626;
   fg-alt: #197300;
 
   text-color: @fg-alt;
