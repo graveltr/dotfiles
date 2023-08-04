@@ -40,7 +40,7 @@ ZSH_THEME="eastwood-trevor"
 # Uncomment one of the following lines to change the auto-update behavior
 # zstyle ':omz:update' mode disabled  # disable automatic updates
 # zstyle ':omz:update' mode auto      # update automatically without asking
-# zstyle ':omz:update' mode reminder  # just remind me to update when it's time
+zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
 # zstyle ':omz:update' frequency 13
@@ -84,7 +84,7 @@ ZSH_THEME="eastwood-trevor"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git globalias)
+plugins=(z common-aliases colorize colored-man-pages copyfile rsync web-search systemd nmap fzf git globalias vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -115,7 +115,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 neofetch
-fortune 
+# fortune 
 # print "\t + Look at the agenda\n\t + Look at scratch\n\t + Fill out a daily journal entry \n\t + Check unprocessed documents folder\n"
 # Install Ruby Gems to ~/gems
 export GEM_HOME="$HOME/gems"

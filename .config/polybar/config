@@ -7,9 +7,11 @@
 
 [colors]
 ;background = #1a1e2a
-background = #262626
+;background = #262626
+background = #181818
 background-alt = #444
-foreground = #C5B8A1
+;foreground = #C5B8A1
+foreground = #ffffff
 foreground-alt = #555
 ;primary = #5eadfc 
 primary = #197300 
@@ -58,7 +60,7 @@ font-5 = NotoMono Nerd Font Mono:pixelsize=18;4
 modules-left = start i3
 modules-center = 
 ;modules-right = xkeyboard pulseaudio mic-volume cpu memory battery zoom telegram anydesk colorpicker gromit-mpx nextcloud pcloud veracrypt bluetooth wlan eth vpn opacityscroll weather arrow date
-modules-right = cpu memory date 
+modules-right = gpu cpu memory date 
 ;modules-right = 
 
 ; tray-position = right
@@ -306,6 +308,16 @@ format-underline = #f90000
 label = %percentage:1%%
 label-font = 2
 format-prefix-font = 4
+
+[module/gpu]
+type = custom/script 
+exec = .config/polybar/scripts/trevs-gpu.sh
+interval = 3
+format-prefix = "gpu: "
+format-prefix-font = 2
+format-suffix = "%"
+format-suffix-font = 2
+label-font = 2
 
 [module/memory]
 type = internal/memory

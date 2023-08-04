@@ -16,7 +16,8 @@ set notification-fg "#151515" #00
 
 set guioptions v
 set recolor-lightcolor "#262626"
-set recolor-darkcolor "#C5B8A1"
+#set recolor-darkcolor "#C5B8A1"
+set recolor-darkcolor "#ffffff"
 set recolor-keephue "true"
 set selection-clipboard clipboard
 
